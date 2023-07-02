@@ -177,46 +177,48 @@
   text-align: center;
 }
 
+.reservation__form {
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+
 .form {
   max-width: 385px;
   box-sizing: border-box;
   font-family: inherit;
 }
 
-.reservation__form {
-  margin: 80px 0px 0px;
-}
-
 .form__fieldset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   border: none;
-  margin-bottom: 32px;
   padding: 0;
 }
 
 .form__label {
-  display: block;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
-  margin: 32px 0px 8px;
-}
-
-.form__label[for="terms-of-use"] {
-  display: inline;
-  padding-left: 12px;
-  vertical-align: center;
+  margin: 0px 0px 8px;
 }
 
 .form__input {
   border-radius: 4px;
   border: #838383 solid;
   box-sizing: border-box;
+  font-family: inherit;
+  font-size: normal;
+  font-weight: normal;
   height: 60px;
   width: 100%;
   max-width: 385px;
+  margin-bottom: 32px;
 }
 
 .form__button {
@@ -231,10 +233,22 @@
   color: #ffffff;
   font-style: normal;
   font-weight: 500;
+  border-radius: 4px;
+  margin: 0px 0px 32px;
+}
+.form__button:hover {
+  opacity: 0.7;
+  transition: opacity 1s;
 }
 
 .form__checkbox {
   border-radius: 2px;
-  background-color: #2f80ed;
-  background-image: url(../images/check.svg);
+  height: 20px;
+  width: 20px;
+}
+
+.form__label_type_checkbox {
+  margin: 0px;
+  display: flex;
+  justify-content: center;
 }
