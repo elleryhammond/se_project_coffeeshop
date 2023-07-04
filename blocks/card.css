@@ -28,11 +28,10 @@
 }
 
 .card__list-item:last-of-type {
-  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .card__list-divider {
-  display: flex;
   flex-grow: 1;
   border-bottom: 1px solid black;
 }
