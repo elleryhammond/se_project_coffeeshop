@@ -14,7 +14,5 @@ This is the second project of the Web Development program at Practicum. It was c
 ## Plan on improving the project
 
 Ideas for the future:
--Create form for online pick-up orders, or ordering shop merch
--Animation of coffee being poured into a cup
-
--
+*Create form for online pick-up orders, or ordering shop merch
+*Animation of coffee being poured into a cup
