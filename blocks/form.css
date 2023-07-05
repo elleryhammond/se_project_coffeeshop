@@ -32,7 +32,7 @@
 
 .form__input {
   border-radius: 4px;
-  border: #838383 solid;
+  border: #838383 solid 1px;
   box-sizing: border-box;
   font-family: inherit;
   font-style: normal;
@@ -72,7 +72,7 @@
 
 .form__button:hover {
   opacity: 0.7;
-  transition: opacity 1s;
+  transition: opacity 1s ease-in-out;
 }
 
 .form__checkbox {
